@@ -2,22 +2,92 @@
 
 body{
     background-color: #1f2937;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: whitesmoke;
 }
 
-.header{}
+.header{
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.hero{}
+.logo{
+    font-weight: bold;
+    border: whitesmoke solid 1px;
+    padding: 2px;
+}
 
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.hero{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    
+}
+
+.hero-info{
+    width: 50%;
+    
+}
+
+.hero-image-container{
+    width: 50%;
+    flex: 1 1 50%;
+    display: flex;
+}
+
+.hero-image{
+    width: 100%;
+}
+
+h2{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
 .info{
     background-color: white;
+    color: rgb(27, 27, 27);
+
 }
 
 .quote{
     background-color: #e5e7eb;
+    color: #1f2937;
 }
 
-.call{ background-color: white;}
+.italic{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.call{ 
+    background-color: white;
+    color: rgb(27, 27, 27);
+}
+
 
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+button{
+    padding: 8px 16px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
