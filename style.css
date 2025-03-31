@@ -14,8 +14,12 @@ img{
     width: 50px;
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke
+}
 .header{
-    padding: 8px 24px;
+    padding: 8px 84px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,11 +99,13 @@ h3{
 }
 .info-title{
     margin: 0;
+    padding: 48px;
 }
 
 .quote{
     background-color: #e5e7eb;
     color: #1f2937;
+    padding: 36px 200px;
 }
 
 .italic{
@@ -109,9 +115,27 @@ h3{
 
 }
 
+.source{
+    text-align: right;
+    font-weight: 900;
+    padding-right: 48px;
+}
+
 .call{ 
     background-color: white;
-    color: rgb(27, 27, 27);
+    color: whitesmoke;
+    padding: 130px 240px;
+}
+
+.card{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 36px 84px;
+    border-radius: 5px;
 }
 
 
@@ -119,6 +143,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px;
 }
 
 button{
@@ -127,4 +152,17 @@ button{
     border: none;
     border-radius: 5px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+}
+
+.card button{
+    border: whitesmoke solid ;
+    box-shadow: none;
+}
+
+.my-h4{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
 }
