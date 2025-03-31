@@ -1,9 +1,17 @@
 
+html{
+
+}
 
 body{
     background-color: #1f2937;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color: whitesmoke;
+   
+    
+}
+img{
+    width: 50px;
 }
 
 .header{
@@ -25,7 +33,7 @@ body{
 }
 
 .hero{
-    padding: 100px;
+    padding: 84px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -40,24 +48,53 @@ body{
 
 .hero-image-container{
     width: 50%;
-    flex: 1 1 50%;
+    flex: 1;
     display: flex;
 }
 
 .hero-image{
     width: 100%;
+    min-width: 300px;
 }
 
-h2{
-    font-size: 48px;
+.hero-title{
+    font-size: 36px;
     color: #f9faf8;
     font-weight: 900;
     margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 24px;
 }
 .info{
     background-color: white;
     color: rgb(27, 27, 27);
+    text-align: center;
+}
 
+
+.info-items{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48px;
+    padding: 24px 150px;
+}
+
+.info-item{
+    flex: 1;
+}
+.info-item img{
+    border:#3882f6 solid;
+    border-radius: 15px;
+    width: 75%;
+}
+.info-title{
+    margin: 0;
 }
 
 .quote{
